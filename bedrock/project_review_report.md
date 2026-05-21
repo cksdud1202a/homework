@@ -83,7 +83,7 @@ def create_order(self, customer_id: str) -> Order:
 - **수정 제안:** 로그에 출력 시 customer_id를 마스킹 처리합니다.
 ```python
 masked_id = customer_id[:3] + "***"
-logger.info(f"주문 확인 완료: {order_id}, 고객: {masked_id}")
+logger.info(f"주문 확인 완료: {order_id}, 고객: {masked_id}") 
 ```
 
 ---
